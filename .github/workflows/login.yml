@@ -2,7 +2,7 @@ name: Netlib Keepalive
 
 on:
   schedule:
-    - cron: '0 1 */30 * *'  # 每30天运行一次（时间早上9点）
+    - cron: '0 2 */30 * *'  # 每30天运行一次（时间上午10点）
   workflow_dispatch:  # 允许手动运行
 
 jobs:
